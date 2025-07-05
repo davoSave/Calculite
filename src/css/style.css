@@ -1,0 +1,99 @@
+
+/**Reset padding and margin**/
+*{
+    padding: 0px;
+    margin: 0px 0px;
+    font-size: medium;
+}
+
+#container{
+    padding: 5% 20%;
+    display: flex;
+    flex-direction: column;
+
+}
+/**Calculator general style**/
+#calculator{
+    margin: auto;
+    width: 300px;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 20px 20px;
+    background-color: black;
+}
+/**Calculator display style**/
+#display-container p{
+    margin: auto;
+    width: 260px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    border-color: grey;
+    text-align: right;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+/**Display of calculator general style**/
+#display-container{
+    padding-bottom: 1em;
+    display: flex;
+
+
+}
+/**Buttons general style**/
+button{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    border-radius: 10px;
+}
+.double{
+    width: 123.2px;
+
+}
+.modifier{
+    background-color: #a5a5aa;
+}
+.operator, .equal{
+    
+    background-color: #fe9f0c;
+}
+.number{
+    background-color: #333;
+    color: white;
+}
+
+.decimal{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid white;
+
+}
+
+.decimal:active{
+
+    background-color: #333;
+}
+/**Disabled buttons style**/
+.disabled{
+    color:rgb(108, 108, 108) ;
+    background-color: #434345;
+}
+
+
+button:active{
+    filter: brightness(200%);
+}
+
+.clicked{
+    filter: brightness(200%);
+}
+h1{
+    text-align: center;
+    margin: 10px;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
